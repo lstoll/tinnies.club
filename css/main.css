@@ -1,0 +1,35 @@
+html body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Permanent Marker', cursive;
+  background-color: #9eebff;
+}
+
+.header {
+  position: absolute;
+  z-index: 10000;
+  margin: 75px 0 0 20px;
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1em;
+  margin: 0;
+  color: #0553ff;
+  text-shadow: 4px 4px #ffffff;
+}
+
+.tins-boys {
+  height: 90vh;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.tins-boys img {
+  max-height: 90%;
+  box-shadow: 15px 15px 0 rgba(5, 83, 255, 0.3);
+}
